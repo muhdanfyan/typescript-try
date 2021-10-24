@@ -4,17 +4,27 @@
 /********** Javascript Types ***********/
 
 let a;                  // undefined
+console.log(typeof(a));
 let b = true;           // boolean
+console.log(typeof(b));
 let c = 1;              // number
+console.log(typeof(c));
 let d = "hello";        // string
+console.log(typeof(d));
 let e = 100n;           // big int (starting ES2020)
+console.log(typeof(e));
 let f = Symbol("Sym");  // symbol  (starting ES2015)
+console.log(typeof(f));
 let g = function () {   // function
   return null;
 };
+console.log(typeof(g));
 let h = null;           // null ( special primitive )
+console.log(typeof(h));
 let i = {};             // Object Literal
+console.log(typeof(i));
 let j = [];             // array
+console.log(typeof(j));
 
 class Product {
   // class

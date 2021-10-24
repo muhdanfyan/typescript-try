@@ -1,5 +1,5 @@
 // type inference(Implicit)
-let ti = 'hello';
+let ti = 'hello'
 
 // type annotation(Explicit)
-let ta: string = 'hello ts';
+let ta: string = 'hello ts'
